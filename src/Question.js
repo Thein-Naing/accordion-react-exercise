@@ -8,10 +8,12 @@ const Question = ({title, info}) => {
     <article className="question">
       <header>
       <h4>{title}</h4>
-      <button className="btn">Ask</button>
+      <button className="btn" onClick={(()=> {
+        setShowInfo(!showInfo)})}>btn</button>
       </header>
       {
         showInfo && <p>{info}</p>
+
 
       }
     </article>
