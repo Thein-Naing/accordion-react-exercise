@@ -164,7 +164,10 @@ main {
 .container h3 {
   line-height: 1.2;
   font-weight: 500;
+
 }
+
+
 @media screen and (min-width: 992px) {
   .container {
     display: grid;
